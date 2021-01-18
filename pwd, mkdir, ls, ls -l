@@ -1,0 +1,22 @@
+root@goorm:/workspace/linux# #               root@goorm:/workspace/lin
+ux# ls -al
+합계 16
+drwxr-xr-x 2 root root 4096  1월 12 07:34 .
+drwxr-xr-x 3 root root 4096  1월 18 11:03 ..
+-rw-r--r-- 1 root root    0 11월 13 12:14 .temp
+-rw-r--r-- 1 root root 2000  1월 12 07:34 README.md
+-rw-rw-r-- 1 root root  545  1월 18 11:03 goorm.manifest
+root@goorm:/workspace/linux# pwd                        #print working directory 현재 있는 디렉토리
+/workspace/linux
+root@goorm:/workspace/linux# mkdir hello_linux          #make directory 디렉토리 생성
+root@goorm:/workspace/linux# pwd
+/workspace/linux
+root@goorm:/workspace/linux# #
+root@goorm:/workspace/linux# ls      #list 현재 있는 디렉토리에서 하위 디렉토리 및 파일 보기
+README.md  goorm.manifest  hello_linux      
+root@goorm:/workspace/linux# ls -l      #hello_linux가 파일인지 디렉토리인지 자세히 확인하기위해 사용
+합계 12
+-rw-r--r-- 1 root root 2000  1월 12 07:34 README.md
+-rw-rw-r-- 1 root root  545  1월 18 11:03 goorm.manifest
+drwxrwxr-x 2 root root 4096  1월 18 11:22 hello_linux      #drwxrwxr-x 권한을 보여주고 맨앞의 d는 디렉토리를 뜻함
+root@goorm:/workspace/linux#
